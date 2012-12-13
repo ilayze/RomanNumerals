@@ -14,6 +14,12 @@ public class RomanNumeralUnitTests {
 		assertEquals("III", number.toRoman(3));
 	}
 	
+	@Test
+	public void testForNumbersGreaterThan10AndLessThan100()
+	{
+		assertEquals("X",number.toRoman(10));
+	}
+	
 
 }
 
