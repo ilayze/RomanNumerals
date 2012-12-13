@@ -18,6 +18,10 @@ public class RomanNumeralUnitTests {
 	public void testForNumbersGreaterThan10AndLessThan100()
 	{
 		assertEquals("X",number.toRoman(10));
+		assertEquals("XVI",number.toRoman(16));
+		assertEquals("XX",number.toRoman(20));
+		assertEquals("XXXII",number.toRoman(32));
+		assertEquals("LXXIX",number.toRoman(79));
 	}
 	
 
