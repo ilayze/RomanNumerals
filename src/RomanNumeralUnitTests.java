@@ -29,9 +29,10 @@ public class RomanNumeralUnitTests {
 	{
 		assertEquals("C",number.toRoman(100));
 		assertEquals("D",number.toRoman(500));
-		//assertEquals("X",number.toRoman(10));
-		//assertEquals("X",number.toRoman(10));
-		//assertEquals("X",number.toRoman(10));
+		assertEquals("MMM",number.toRoman(3000));
+		assertEquals("MMCMXLIX",number.toRoman(2949));
+		assertEquals("MMDXLIX",number.toRoman(2549));
+		assertEquals("MMCDXLIX",number.toRoman(2449));
 	}
 	
 
