@@ -24,6 +24,16 @@ public class RomanNumeralUnitTests {
 		assertEquals("LXXIX",number.toRoman(79));
 	}
 	
+	@Test
+	public void testForNumberGreaterThan100()
+	{
+		assertEquals("C",number.toRoman(100));
+		assertEquals("D",number.toRoman(500));
+		//assertEquals("X",number.toRoman(10));
+		//assertEquals("X",number.toRoman(10));
+		//assertEquals("X",number.toRoman(10));
+	}
+	
 
 }
 
